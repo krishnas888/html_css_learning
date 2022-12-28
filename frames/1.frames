@@ -1,0 +1,12 @@
+
+<!--Define a window (a frame) in a frameset-->
+ <frame></frame>
+
+<!--Define a set of frames-->
+<frameset></frameset>
+
+<!--Define an alternate content for users that do not support frames -->
+<noframes></noframes>
+
+<!--Define an inline frame iframe-->
+<iframe></iframe>

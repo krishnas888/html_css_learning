@@ -1,0 +1,38 @@
+<!--Define a section in a div document-->
+<div></div> 
+
+<!--Define a section in a span document-->
+<span></span> 
+
+<!--Define a section in a header document-->
+<header></header> 
+
+<!--Define a section in a nav tag navigation links-->
+<nav></nav>
+
+<!--Define a section in a MAIN content-->
+<main></main>
+
+<!--Define a section in a content-->
+<section></section>
+
+<!--Define a  in article content-->
+<article></article>
+
+<!--Define a  in aside tag-->
+<aside></aside>
+
+<!--Define a  in details tag-->
+<details></details> 
+
+<!--Define a  in dialog box or window -->
+<dialog></dialog>
+
+<!--Define a  in visible heading for a <details> element summary-->
+<summary></summary>
+
+<!--Define a  in Adds a machine-readable translation of a given content data tag-->
+<data></data>
+
+<!--Define a  in footer for a deocument or section-->
+<footer></footer>

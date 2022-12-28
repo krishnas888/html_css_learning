@@ -1,0 +1,30 @@
+<!--Define a table-->
+<table></table>
+
+<!--Define a table caption-->
+ <caption></caption>
+
+<!--Define a header cell in a table <th>-->
+<th></th>
+
+
+<!--Define a row in table <tr>-->
+<tr></tr>
+
+<!--Define a cell in atable <td>-->
+ <td></td>
+
+<!--Define group the header content in a table <thead>-->
+<thead></thead>
+
+<!--Define group a the body content in a table <tbody>-->
+<tbod> </tbod>
+
+<!--Define group a the footer content in a table <tfoot>-->
+<tfoot> </tfoot>
+
+<!--Specifies column properties for each column within a  element <col>-->
+<col span="2">
+
+<!--specifies a groupd of one or more colums in a table for formatting <colgroup>-->
+<colgroup> </colgroup>

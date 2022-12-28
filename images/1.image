@@ -1,0 +1,25 @@
+
+<!--Define the Image img-->
+
+<img></img>
+
+<!--Define the Client-side image map-->
+<map></map>
+
+<!--Define thearea inside an images map-->
+<area> 
+
+<!--Used to draw grapgics on the fly via scripting( javascript) canvas-->
+<canvas></canvas>
+
+<!--Define a caption for figure element  figcaption-->
+<figcaption></figcaption>
+
+<!--Specifies self-contained content figure-->
+<figure></figure>
+
+<!--Define a container for multiple image resources picture-->
+<picture></picture>
+
+<!--Define a container for SVG graphics svg-->
+<svg></svg>

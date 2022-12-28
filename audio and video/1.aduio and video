@@ -1,0 +1,14 @@
+
+<!--Define the sound content audio-->
+
+<audio></audio>
+
+<!--Define multiple media resources for media element (<video>, <audio> and <picture> source-->
+<source>
+
+<!--Define text tracks for media element(<video > and <audio>) track-->
+<tracks> 
+
+<!--Defines a video or movie video-->
+<video></video>
+
