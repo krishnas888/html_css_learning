@@ -1,0 +1,113 @@
+<!--Define an acronym  <acronym> not support in html5-->
+<acronym>
+
+<!--Define an abbreviation or an acronym <abbr>-->
+<abbr></abbr>
+
+<!--Define contact information for the author/owner of a documnet/article <address>-->
+<address>
+</address>
+
+<!--Define bold text <b>-->
+<b></b>
+
+<!--Isolation a part of text that might be formated in a different direction from other text outside it <bbi>-->
+<bdi></bdi>
+
+<!--Overrides the currect text direction <bdo>-->
+<bdo>
+
+<!--Define a big text <big> not support to html5-->
+
+
+<!--Define a section that is quoted from another source <blockqoute> -->
+<blockqoute></blockqoute>
+
+<!--Defines centerred text <center> not supoort to html5-->
+<center></center>
+
+<!--Define the title of a work <cite>-->
+<cite></cite>
+
+<!--Define a piece of computer code <code>-->
+<code> </code>
+<!--Define text that has been deleted from a document <del>-->
+<del></del>
+
+<!--Specifies a term that is going to be defined within the content <dfn>-->
+
+<!--Define emphasized text <em> -->
+<em>
+
+<!--Define font, color, and size for text in html5 not support <font>-->
+
+
+<!--Define a part of text in an alternate voice or mood <i>-->
+<i></i>
+
+<!--Define a part of text that has been inserted into a documnet <ins>-->
+<ins></ins>
+
+<!--Define keyboard input <kbd>-->
+<kbd></kbd> 
+
+<!--Define marked/highlighted text <mark> -->
+<mark></mark>
+
+<!--Defines a scalar measurement within a known range (a good) <meter>-->
+<meter></meter>
+
+<!--Defines preformatted text <pre> -->
+<pre></pre>
+
+<!--Represents the prograss of a task <prograss>-->
+<prograss></prograss>
+
+<!--Defines a short quotation <q>-->
+<q></q>
+
+<!--Defines what to show in browsers that do not support ruby annotations <rp>-->
+
+<!--Defines an explanation/pronunciation of characters (for East Asia typography) <rt>-->
+<rt></rt>
+
+<!--Defines a ruby annotations (for east asia typography) <ruby>-->
+<ruby></ruby>
+
+<!--Defines text that is no longer correct <s>-->
+<s></s>
+
+<!--Defines sample output from a computer program <samp>-->
+<samp></samp>
+
+<!--Define smaller text <small>-->
+<small></small>
+
+<!--Define strikethrough text not support to html5 <strike>-->
+
+<!--Defines important text <strong>-->
+<strong></strong>
+
+<!--Define subscripted text <sub>-->
+<sub></sub>
+
+<!--Define superscripted text <sup> -->
+<sup></sup>
+
+<!--Define a container for content that should be hidden when the page loads <templete>-->
+<template></template>
+
+<!--Defines a specific time (or datetime) <time>-->
+<time></time>
+
+<!--Defines teletype text not support in html5 <tt>-->
+
+<!--Define some text that is unarticulated and styled differently from normal text <u>-->
+<u></u>
+
+<!--Defines a variable <var>-->
+<var></var>
+
+<!--Defines a possible line-break <wbr> -->
+<wbr> </wbr>
+

@@ -1,0 +1,21 @@
+<!--Define a clint-side script <script>-->
+<script></script>
+
+<!--Define an alternate context for user that do not support client-side script <noscript>-->
+<noscript></noscript>
+
+<!--Define an embedded applet <applet>-->
+not support to html
+
+<!--Define a container for an external (non-HTML) application-->
+<embed type="video/quicktime" src="#" width="300" hight="500">
+
+<!--Define an embedded object <object>-->
+<object type="" data="https://">
+
+</object>
+
+<!--Define a parameter for an object-->
+<param name="" value"">
+
+
