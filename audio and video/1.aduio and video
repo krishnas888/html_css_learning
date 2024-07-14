@@ -16,7 +16,7 @@
 <video width="100% control> </video>
 <audio controls autoplay loop muted> </audio >
 
-<!-- autoplay to automatically plaing video-->
+<!-- autoplay to automatically plaing video not work on iphone and ipods-->
 <video autoplay></video>
 <audio autoplay></audio>
 

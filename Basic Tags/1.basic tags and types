@@ -42,6 +42,10 @@
 
 </a>
 
+<!--refer and anchor tag in # make to scrool the content with the page -->
+<a href="#article1">Artical 1<a>
+
+<a id="article1"><a> Articl 1
 
 <!--Define the metadata about an HTML Documnet -->
 <meta>

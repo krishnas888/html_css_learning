@@ -1,11 +1,17 @@
-<!DOCTYPE  html>
-<html lang ="en" dir="ltr"> 
-    <head>
-        <title>cars</title>
-    </head>
-    <body>
-        <table>
-            <colgroup>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>cars</title>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' http: https: 'unsafe-inline'; script-src 'self' http: https: 'unsafe-inline';">
+
+</head>
+
+<body>
+    <p>table 1</p>
+    <table>
+        <colgroup>
             <col span="2" style="background-color:gray;">
             <col span="2" style="background-color:red;">
         </colgroup>
@@ -17,7 +23,7 @@
                 mustung
             </th>
             <th>
-                shelby
+                shelby 300
             </th>
         </tr>
         <tr>
@@ -31,6 +37,147 @@
                 2500000
             </td>
         </tr>
-        </table>
-    </body>
+    </table>
+    <p> basic table</p>
+    <table width="500" border="1" bordercolor="red" cellspacing="2" cellpading="2">
+        <tr>
+            <td>
+                car name
+            </td>
+            <td>
+                car prise
+            </td>
+        </tr>
+        <tr>
+            <td>shelby 500</td>
+            <td>350000</td>
+        </tr>
+        <tr>
+            <td>vintage mustang</td>
+            <td>3500000</td>
+        </tr>
+        <tr>
+            <td> mustang 1985</td>
+            <td>8500000</td>
+        </tr>
+    </table>
+    <p>Nested table</p>
+    <!--Here we need to use parent table inside nested table be carfull-->
+    <table width="100%" border="1" bordercolor="Green" cellspacing="2" cellpading="2">
+        <tr>
+            <!--Paste inside the td tag-->
+            <td>
+                <table width="100%">
+                    <colgroup>
+                        <col span="2" style="background-color:gray;">
+                        <col span="2" style="background-color:red;">
+                    </colgroup>
+                    <tr>
+                        <th>
+                            Ford
+                        </th>
+                        <th>
+                            mustung
+                        </th>
+                        <th>
+                            shelby 300
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            500000
+                        </td>
+                        <td>
+                            1500000
+                        </td>
+                        <td>
+                            2500000
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <p>merging cell</p>
+    <table width="500" border="1" bordercolor="Green">
+        <tr>
+            <td colspan="2">Automobile stock</td>
+        </tr>
+        <tr>
+            <td>Maruti Suzuki </td>
+            <td>1800</td>
+        </tr>
+        <tr>
+            <td>Tata Motors
+            </td>
+            <td>480</td>
+        </tr>
+        <tr>
+            <td>M & M
+            </td>
+            <td>800</td>
+        </tr>
+        <tr>
+            <td>Bajaj Auto
+            </td>
+            <td>2700</td>
+        </tr>
+        <tr>
+            <td>Eicher Motors
+            </td>
+            <td>3000</td>
+        </tr>
+        <tr>
+            <td>Hero Motocorp
+
+            </td>
+            <td>2200</td>
+        </tr>
+    </table>
+
+    <p>Table background</p>
+    <table background="assets\krishna.jpg" border="1" bodercolor="pink">
+        <tr>
+            <td colspan="2">bank stock</td>
+        </tr>
+        <tr>
+            <td>HDFC Bank
+            </td>
+            <td>1800</td>
+        </tr>
+        <tr>
+            <td>ICICI Bank
+
+            </td>
+            <td>480</td>
+        </tr>
+        <tr>
+            <td>St Bk of India
+
+            </td>
+            <td>800</td>
+        </tr>
+        <tr>
+            <td>Axis Bank
+
+            </td>
+            <td>2700</td>
+        </tr>
+        <tr>
+            <td>Kotak Mah. Bank
+
+            </td>
+            <td>3000</td>
+        </tr>
+        <tr>
+            <td>IndusInd Bank
+
+
+            </td>
+            <td>2200</td>
+        </tr>
+    </table>
+</body>
+
 </html>
