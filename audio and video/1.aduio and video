@@ -12,3 +12,11 @@
 <!--Defines a video or movie video-->
 <video></video>
 
+<!--pefiy the control make video or adio prograsee-->
+<video width="100% control> </video>
+<audio controls autoplay loop muted> </audio >
+
+<!-- autoplay to automatically plaing video-->
+<video autoplay></video>
+<audio autoplay></audio>
+
