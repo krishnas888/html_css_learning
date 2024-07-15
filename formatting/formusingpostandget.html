@@ -1,60 +1,116 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>From using post & get methods</title>
-        <meta name="description" content="html form tag" charset="UTF-8"/>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' http: https: 'unsafe-inline'; script-src 'self' http: https: 'unsafe-inline';" />
-        <meta name="viewport"  content="width=device-width, initial-scale=1" />    
-    </head>   
-    <body>
-        <form name="employment" action="send.php" method="post">
-            <table width = "600" border="1" cellspace="2" cellpadding="2">
-                <tr>
-                    <td>Employment Application </td>
-                    <td></td>
-                </tr>
 
-                <tr>
-                    <td>First Name</td>
-                    <td><input type="text" name="fname" maxlength="25"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Last Name</td>
-                    <td><input type="text" name="lname" maxlength="25"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
+<head>
+    <title>From using post & get methods</title>
+    <meta name="description" content="html form tag" charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' http: https: 'unsafe-inline'; script-src 'self' http: https: 'unsafe-inline';" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
 
-            </table>
+<body>
+    <!--here we using post method for data naviagtion-->
+    <form name="employment" action="send.php" method="post">
+        <table width="600" border="1" cellspace="2" cellpadding="2">
+            <tr>
+                <td>Employment Application </td>
+                <td></td>
+            </tr>
 
-        </form>
-    </body>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="fname" maxlength="25" />
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lname" maxlength="25" />
+                </td>
+            </tr>
+            <tr>
+                <td>Possition</td>
+                <!--Define the attributes-->
+                <td>
+                    <select name="possition">
+                        <!--Option tag required value attribute-->
+                        <!--This attribute identify the value that attach each options -->
+                        <option value="AC">
+                            <!--Dtabase store 2 word -->
+                            Accountant
+                        </option>
+                        <option value="FD">
+                            frontend Dev
+                        </option>
+                        <option value="BD">
+                            backend Dev
+                        </option>
+                        <option value="IT">
+                            IT management
+                        </option>
+                        <option value="HR">
+                            HR management
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Experience</td>
+                <td>
+                    <select name="experience">
+                        <option value="FR">
+                            Fresher
+                        </option>
+                        <option value="EL">
+                            Entry leve
+                        </option>
+                        <option value="JR">
+                            Junior
+                        </option>
+                        <option value="SR">
+                            Senior
+                        </option>
+                        <option value="AR">
+                            Architect
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Job Type</td>
+                <td>
+                    <input type="checkbox" name="FL" /> Full time
+                    <input type="checkbox" name="PT" /> Part time
+                    <input type="checkbox" name="CT" /> Contract
+                </td>
+            </tr>
+            <tr>
+                <td>Employment Status</td>
+                <!--name="estatus" same because we only need to select one option-->
+                <td>
+                    <input type="radio" name="estatus" value="employed" /> Employed
+                    <input type="radio" name="estatus" value="unemployed" /> Unemployed
+                    <input type="radio" name="estatus" value="student" /> Student
+                </td>
+            </tr>
+            <tr>
+                <td>Addional Comment</td>
+                <td>
+                    <textarea name="comment" cols="45" rows="5">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="submit" value="Submit" />
+                    <input type="reset" name="reset" value="Reset" />
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
 </html>

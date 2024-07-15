@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Images</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <p>
+        <img src="assets\maakali.png" alt="Sorry image not supproted">
+    </p>
+    <p>
+        <picture>
+            <source media="(max-width:799px)" srcset="small.jpg">
+            <source media="(max-width:800px)" srcset="Large.jpg">
+            <img src="assets\goddess.jpg" alt="example image">
+        </picture>
+    </p>
+
+    <p>
+        <!-- Specifies self-contained content figure -->
+    <figure>
+        <img src="assets\sivaparvathi.jpg" alt="Siva Parvathi" usemap="#image-map">
+        <!-- Define the Client-side image map -->
+        <map name="image-map">
+            <area shape="rect" coords="34,44,270,350" alt="" sample
+                href="https://i.pinimg.com/736x/65/9c/8f/659c8fd9ae6185eb6398e38ee24a6e88.jpg">
+        </map>
+    </figure>
+    </p>
+
+    <p>
+        <!-- Used to draw graphics on the fly via scripting (JavaScript) canvas -->
+        <canvas id="canvasExample" width="200" height="200"></canvas>
+
+        <script>
+            // Drawing on the canvas element
+            var canvas = document.getElementById('canvasExample');
+            var context = canvas.getContext('2d');
+            // Draw blue rectangle
+            context.fillStyle = 'blue';
+            context.fillRect(10, 10, 180, 180);
+            // Draw light blue circle
+            context.beginPath();
+            context.arc(100, 100, 50, 0, 2 * Math.PI);
+            context.fillStyle = 'lightblue';
+            context.fill();
+            // Draw red circle
+            context.beginPath();
+            context.arc(100, 100, 30, 0, 2 * Math.PI);
+            context.fillStyle = 'red';
+            context.fill();
+        </script>
+    </p>
+
+    <p>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" strock="black" strock-width="3" fill="red">
+
+            </circle>
+        </svg>
+    </p>
+</body>
+
+</html>
