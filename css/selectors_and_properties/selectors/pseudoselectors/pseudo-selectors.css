@@ -1,0 +1,30 @@
+h2:hover{
+    color: blue;
+}
+li:first-child{
+    color: purple;
+}
+li:nth-child(2){
+    color: yellowgreen;
+}
+
+li:last-child{
+    color: rebeccapurple;
+}
+
+li:only-child{
+    color: aqua;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+#test1:hover{
+color: lawngreen;
+}
+#test1:active{
+    color: yellow;
+}

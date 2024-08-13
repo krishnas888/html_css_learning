@@ -1,0 +1,44 @@
+.solid-border {
+    border: 2px solid green;
+  }
+  
+  .dotted-border {
+    border: 2px dotted red;
+  }
+  
+  .dashed-border {
+    border: 2px dashed blue;
+  }
+  
+  .double-border {
+    border: 4px double black;
+  }
+  
+  .groove-border {
+    border: 2px groove gray;
+  }
+  
+  .ridge-border {
+    border: 2px ridge brown;
+  }
+  
+  .inset-border {
+    border: 2px inset purple;
+  }
+  
+  .outset-border {
+    border: 2px outset orange;
+  }
+  
+  .none-border {
+    border: none;
+  }
+  
+  .hidden-border {
+    border: hidden;
+  }
+  
+  .image-content{
+    height: 300px;
+    width: 60vw;
+  }

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    background-color: #011526;
+    width: 100%;
+    height: 100%;
+}
+#titleblock{
+    background-color: #038C65;
+    color: #012E40;
+    text-align: center;
+    padding: 1.8%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#main-content{
+    background-color: #02735E;
+    margin: 2%;
+    padding: 2%;
+}
+
+.main-image{
+    width: 100%;
+    height: 34%;
+    border: 8px solid #011526;
+    margin-bottom: 2%;
+}
+.sub-content{
+    color: white;
+    font-size: 24px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#content1{
+background-color: #025959;
+margin: 2%;
+padding: 2%;
+}
+
+#content2{
+    background-color:#038C65;
+    margin: 2%;
+    padding: 2%;
+    height: 80%;
+    padding-bottom: 4%;
+    }
+
+table, th,td{
+    border:  4px solid #011526;
+    border-collapse: collapse;
+    padding-left: 2%;
+    font-size: 28px;
+    padding-bottom: 2%;
+}
+td{
+   color: #8C1F28; 
+}
+
+
+li{
+    color: #012E40;
+}
+table{
+    width: 100%;
+    height: 70%;
+}
+.table-image{
+    width: 50%;
+    height: 60%;
+}
+
+#content3{
+    background-color:#02735E;
+    margin: 2%;
+    padding: 2%;
+    }
+
+    .table-list2{
+        color: #012E40;
+        padding: 1%;
+        text-align: justify;
+    }
+span{
+    color: #591C21
+}
+
+#content4{
+    background-color:#012E40;
+    margin: 2%;
+    padding: 4%;
+    }
+
+.content-heading{
+    color: #011526;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.content-heading2{
+    color: #02735E;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.order-list-heading{
+    font-size: 36px;
+    color: #02735E;
+    margin: 2%;  
+}
+.unorder-list-heading{
+    font-size: 32px;
+    color: #038C65;
+}
+#end-content{
+    background-color: black;
+    padding: 3%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 24px;
+}

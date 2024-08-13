@@ -1,0 +1,66 @@
+html{
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+.title{
+    font-size: 2.5pc;
+    border-color: bisque;
+    color: brown;
+    border: 2px solid black;
+}
+
+.absolute-cm{
+    width: 2cm;
+    height: 1cm;
+    background-color: aqua;
+    color: black;
+    border: 1px solid red;
+
+}
+.absolute-mm{
+    width: 2mm;
+    height: 1mm;
+    background-color: aqua;
+    color: black;
+    border: 1px solid red;
+}
+.absolute-pt{
+   font-size: 12pt;
+    background-color: aqua;
+    color: black;
+}
+.absolute-pc{
+    font-size: 2pc;
+     background-color: aqua;
+     color: black;
+ }
+
+ .relative-percent{
+    width: 50%;
+    height: 100%;
+    background-color: lightblue;
+    color: black;
+    border: 1px solid black;
+ }
+ .relative-em{
+    font-size:2em;
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+ }
+ .relative-rem{
+    font-size:2rem;
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+ }
+
+ .viewport-vw{
+    width: 50vw;
+    height: 200px;
+    background-color: lightblue;
+    color: black;
+    border: 1px solid black;
+ }

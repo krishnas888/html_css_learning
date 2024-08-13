@@ -1,0 +1,9 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: darkmagenta;
+    background-color: lavender;
+    text-align: center;
+    padding: 20px;
+}

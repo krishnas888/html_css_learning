@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0; 
+   }
+   .bodyclass{
+       background-color:#9AEBA3;
+   }
+   .headerclass{
+       background-color: #012030;
+       color: #DAFDBA;
+       text-align: center;
+       padding: 32px;
+   
+   }
+   .listheading{
+       color: #012030;
+       margin: 24px;
+       font-size: 24px;
+       padding: 8px;
+       border: 2px solid  #13678A;
+   }
+   .listitem{
+       margin-left: 28px;
+       padding: 2px;
+       color: #13678A;
+       font-size: 18px;
+   
+   }
